@@ -34,7 +34,7 @@ ReactDOM.render(
      
         
 <Switch>
-          <Route exact path="/develop">
+          <Route exact path="/">
             <Navi />
            <Text />
            <Work />
