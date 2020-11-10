@@ -26,33 +26,21 @@ WebFont.load({
 });
 ReactDOM.render(
   
- 
-  
- 
-
-<Router >
-     
-        
-<Switch>
-  BrowserRouter basename={window.location.pathname || ''}>
-          <Route exact path="/">
-            <Navi />
-           <Text />
-           <Work />
-           <Footer />
-          </Route>
-          <Route path="/about">
-            
-            <Navi />
-            <About />
-            <Work />
-           <Footer />
-          </Route>
-         </BrowserRouter>
-        </Switch>
-        
-     
-   </Router>,
+ <Router>
+    <Switch>
+      <Route exact path="/">
+        <Navi />
+        <Text />
+        <Work />
+        <Footer />
+      </Route>
+      <Route path="/about">
+        <About />
+        <Work />
+        <Footer />
+      </Route>
+    </Switch>
+  </Router>,
   document.getElementById('root'),
 
 );
