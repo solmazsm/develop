@@ -28,7 +28,7 @@ ReactDOM.render(
   
  <Router>
     <Switch>
- <BrowserRouter basename={window.location.pathname || ''}>
+ <BrowserRouter basename='./'>
       <Route exact path="/">
         <Navi />
         <Text />
