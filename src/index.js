@@ -34,6 +34,7 @@ ReactDOM.render(
      
         
 <Switch>
+  BrowserRouter basename={window.location.pathname || ''}>
           <Route exact path="/">
             <Navi />
            <Text />
@@ -47,7 +48,7 @@ ReactDOM.render(
             <Work />
            <Footer />
           </Route>
-         
+         </BrowserRouter>
         </Switch>
         
      
