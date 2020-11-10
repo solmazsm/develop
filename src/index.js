@@ -36,7 +36,7 @@ ReactDOM.render(
         <Footer />
       </Route>
        <Route path="/about">
-      <Link to="/develop/about"/>
+      <Link to="/about"/>
         <About />
         <Work />
         <Footer />
