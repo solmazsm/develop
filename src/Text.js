@@ -13,16 +13,19 @@ const Text = () =>{
         <br /><br /><br /><br /><br /><br />  
        <p class="text-right"> 
          
-       <div className='player-wrapper'>
-            <ReactPlayer
+      <div className='player-wrapper'>
+            <ReactPlayer playing
             className='react-player fixed-bottom'
-            url= 'sol.MP4'
+            url= 'videos/sol.mp4'
             width='20%'
             height='20%'
-            controls = {true}
-            playing={true}
+            controls = 'true'
+            playing= 'true'
+            loop='true'
+            light='false'
             />
         </div>
+
 
 
 </p>
