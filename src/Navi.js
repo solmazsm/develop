@@ -15,7 +15,7 @@ class Navi extends React.Component {
         return(
              <Router>
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="./">
             <span style={{fontFamily:"'Lobster', cursive", fontSize:"25px", margin:"20px"}}>Solmaz Seyed Monir</span></Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
@@ -45,7 +45,12 @@ class Navi extends React.Component {
           </Navbar.Collapse>
           <br /><br />
         </Navbar>
-
+ <Switch>
+                            <BrowserRouter>
+                                <Route path="/about" component={About} />
+                                   
+                                </BrowserRouter>
+                            </Switch>
         </Router>
     )
   }
