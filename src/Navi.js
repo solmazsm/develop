@@ -20,7 +20,7 @@ class Navi extends React.Component {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="#features"> <span style={{fontFamily:"'Lobster', cursive", fontSize:"20px"}}>Work</span></Nav.Link>
-              <Nav.Link href="./about"><span style={{fontFamily:"'Lobster', cursive", fontSize:"20px"}}>About</span></Nav.Link>
+              <Nav.Link href="/about"><span style={{fontFamily:"'Lobster', cursive", fontSize:"20px"}}>About</span></Nav.Link>
               <NavDropdown title="Blog" id="collasible-nav-dropdown">
                 <NavDropdown.Item href="http://535fall2018solmazmonir.blogspot.com/" className="drop">Data Center</NavDropdown.Item>
                 <NavDropdown.Item href="https://htmlsolmazseyedmonirsep2020.blogspot.com/" className="drop">Website 1</NavDropdown.Item>
