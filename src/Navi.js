@@ -13,6 +13,7 @@ import { Router, Route, Link, browserHistory, IndexRoute } from 'react-router'
 class Navi extends React.Component {
     render(){
         return(
+             <Router>
           <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" >
           <Navbar.Brand href="#home">
             <span style={{fontFamily:"'Lobster', cursive", fontSize:"25px", margin:"20px"}}>Solmaz Seyed Monir</span></Navbar.Brand>
@@ -45,7 +46,7 @@ class Navi extends React.Component {
           <br /><br />
         </Navbar>
 
-        
+        </Router>
     )
   }
 }
