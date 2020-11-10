@@ -45,12 +45,7 @@ class Navi extends React.Component {
           </Navbar.Collapse>
           <br /><br />
         </Navbar>
- <Switch>
-                            <BrowserRouter>
-                                <Route path="/about" component={About} />
-                                   
-                                </BrowserRouter>
-                            </Switch>
+ 
         </Router>
     )
   }
